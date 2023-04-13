@@ -1,0 +1,21 @@
+.header{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    &_wrp{
+        &_left{
+            h3{
+                color: white;
+            }
+            input{
+                background-color: white;
+            }
+        }
+        &_center{
+            position: absolute;
+            align-items: center;
+        }
+    }
+}

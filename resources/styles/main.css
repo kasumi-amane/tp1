@@ -1,0 +1,17 @@
+.header {
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+.header_wrp_left h3 {
+  color: white;
+}
+.header_wrp_left input {
+  background-color: white;
+}
+.header_wrp_center {
+  position: absolute;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
