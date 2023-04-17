@@ -4,38 +4,57 @@
     display: flex;
     background-color: red;
     &_wrp{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1250px;
+        position: relative;
         &_left{
-            margin-top: 20px;
             display: flex; 
             margin-left: 10px;
             align-items:center;
             justify-content: space-between;
             gap: 15px;
+            position: absolute;
+            left: 0;
             h3{
                 margin-left: 5px;
                 color: white;
             }
             input{
                 background-color: white;
+                padding: 0 10px;
             }
         }
     }
     &_wrp{
         &_center{
+        display: flex;
         align-items: center;
         justify-content: center;
-        bottom{
-            margin-left: 200px;
-            position: absolute;
-            margin-top: 20px
-            margin-left:100px;
+        gap: 20px;
+        button{
             width:90px;
-            height:35px;
-            border-radius:4px;
-            display: flex; 
+            height:36px;
+            border-radius:18px;
+            border: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba($color: #ffffff, $alpha: 0.5);
+            cursor: pointer;
+                a{
+                    text-decoration: none;
+                    color: white;
+                } 
+            &:hover{
+                background-color: rgba($color: #ffffff, $alpha: 1);
+                a{
+                    color: black;
+                }
             }
-        a{
-            text-decoration:none;
+            }
         }
     }
 }    
