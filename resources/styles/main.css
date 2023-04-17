@@ -1,11 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .header {
   height: 75px;
   width: 100%;
   display: flex;
-  justify-content: center;
   background-color: red;
 }
+.header_wrp_left {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
 .header_wrp_left h3 {
+  margin-left: 5px;
   color: white;
 }
 .header_wrp_left input {
@@ -14,4 +28,17 @@
 .header_wrp_center {
   position: absolute;
   align-items: center;
+  justify-content: space-between;
+}
+.header_wrp_center bottom {
+  position: relative;
+  width: 90px;
+  height: 35px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_wrp_center a {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

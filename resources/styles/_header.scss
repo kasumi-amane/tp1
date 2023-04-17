@@ -2,20 +2,40 @@
     height: 75px;
     width: 100%;
     display: flex;
-    justify-content: center;
     background-color: red;
     &_wrp{
         &_left{
+            margin-top: 20px;
+            display: flex; 
+            margin-left: 10px;
+            align-items:center;
+            justify-content: space-between;
+            gap: 15px;
             h3{
+                margin-left: 5px;
                 color: white;
             }
             input{
                 background-color: white;
             }
         }
+    }
+    &_wrp{
         &_center{
+        align-items: center;
+        justify-content: center;
+        bottom{
+            margin-left: 200px;
             position: absolute;
-            align-items: center;
+            margin-top: 20px
+            margin-left:100px;
+            width:90px;
+            height:35px;
+            border-radius:4px;
+            display: flex; 
+            }
+        a{
+            text-decoration:none;
         }
     }
-}
+}    
