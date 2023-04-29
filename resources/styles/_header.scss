@@ -1,4 +1,4 @@
-.header{
+ .header{
     height: 75px;
     width: 100%;
     display: flex;
@@ -57,4 +57,42 @@
             }
         }
     }
-}    
+} 
+#nosotros{
+    .header{
+        display: flex;
+        height: 75px;
+        width: 100%;
+        display: flex;
+        background-color: rgb(59, 59, 212);
+        &_wrp{
+            display: flex;
+            margin-left: 40px;
+            align-items:center;
+            justify-content: space-between;
+            gap: 10px;
+            position: absolute;
+            left: 0;
+            margin-top: 15px;
+            h1{
+                color: white;   
+            }
+        }
+    }
+    nav{
+        background-color: rgb(15, 15, 122);
+        display: flex;
+        height: 75px;
+        width: 100%;
+        bottom{
+            display: flex;
+            background-color: rgb(15, 15, 122;
+            a{ 
+                display: flex;
+                justify-content: center;
+                color: white;
+            }
+        }
+    }
+} 
+}
